@@ -41,5 +41,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 1. `Create a team payment: one time amount aka "bonus" payment` fails because `Rate type` is set to `Bonus` instead
    `Pending` by test case.
-2. `.env` was pushed intentionally in order to run tests (test account was created for this purpose).
+2. `.env` was pushed intentionally in order to run tests (test account was created for this purpose). Please add missing
+   secrets there
 
