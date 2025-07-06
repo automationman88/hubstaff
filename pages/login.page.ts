@@ -22,8 +22,6 @@ export const LoginPage = (page: Page) => {
             await this.fillUserEmail(user.username);
             await this.fillUserPassword(user.password);
             await this.clickSignIn();
-            // Optionally, you can add an assertion to verify successful login
-            // await expect(page.locator('selector-for-logged-in-element')).toBeVisible();
         }
     }
 }
