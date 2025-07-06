@@ -26,7 +26,9 @@ This project is a test framework for a time tracking application.
    yarn install
    ```
 
-3. Run tests:
+3. Add missing credentials to `.env` file:
+
+4. Run tests:
    ```bash
    npx playwright test
    ```
