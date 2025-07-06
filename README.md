@@ -26,10 +26,7 @@ This project is a test framework for a time tracking application.
    yarn install
    ```
 
-3. Configure environment variables:
-    - Copy `.env.example` to `.env` and update values as needed.
-
-4. Run tests:
+3. Run tests:
    ```bash
    npx playwright test
    ```
@@ -38,12 +35,9 @@ This project is a test framework for a time tracking application.
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## NOTE:
 
-[MIT](LICENSE)
-
-NOTE:
-
-`Create a team payment: one time amount aka "bonus" payment` fails because `Rate type` is set to `Bonus` instead
-`Pending` by test case.
+1. `Create a team payment: one time amount aka "bonus" payment` fails because `Rate type` is set to `Bonus` instead
+   `Pending` by test case.
+2. `.env` was pushed intentionally in order to run tests (test account was created for this purpose).
 
